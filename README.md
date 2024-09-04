@@ -155,6 +155,26 @@ Call by Value
 Call by Reference 
 
 
+> # Symbol
+use for unique
+```js
+const Id = Symbol('123')
+const Id2 = Symbol('123') 
+console.log(Id==Id2,Id === Id2) // false false
+
+const id3 = Symbol(3)
+console.log(typeof Id,Id,Id2,typeof id3 , id3)// symbol Symbol(123) Symbol(123) symbol Symbol(3)
+```
+> # BigInt 
+for this add in extra n in the last of int vlaue
+```js
+// bigInt {add in last n}
+const a = 123456789012363566324n
+const b = 737947839479732987398n
+
+console.log(typeof(a) , a+b , a*b ) // bigint 861404628492096553722n 91104670720778932258594729465505829184952n
+```
+
 
 
 
