@@ -16,8 +16,7 @@ null
 
 ```js
 let temp = null
-console.log(typeof temp) // object
-console.log(typeof null) // object
+console.log(typeof temp , typeof null) // object object
 ```
 boolean
 
@@ -29,9 +28,7 @@ undefined
 
 ```js
 let a
-console.log(typeof a) // undefined
-console.log(typeof undefined) // undefined
-
+console.log(typeof a , typeof undefined) // undefined  undefined
 ```
 > # 02 Type conversion
 
