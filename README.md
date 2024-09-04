@@ -139,6 +139,24 @@ console.log(null > 0, null < 0, null == 0); // false false false
 console.log(null >= 0, null <= 0); // true true
 // conversion of null into 0
 ```
+> # 05 DATATYPE INTERVIEW QUESTION
+### JS is DYNAMIC Type Language
+in which no need to define DataType before
+decleration
+### Number Of DataType
+1. officaly , call by value and call by reference 
+> Officialy ,
+1. Primitive -> (7)
+**string , number , boolean , null , Undefined , symbol , bigint**
+Call by Value
+
+2. Non Primitive -> (Reference Type)
+**Array , Objects , functions**
+Call by Reference 
+
+
+
+
 
 
 
